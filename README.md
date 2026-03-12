@@ -21,72 +21,47 @@
 
 ## 🛠️ Tutorial
 
-### Prasyarat
+### Catatan
 
-Pastikan kamu sudah menginstal hal-hal berikut sebelum memulai:
+Fitur Perintah Ini hanya berlaku untuk windows/linux:
 
-- [Node.js](https://nodejs.org/) v18+
-- [npm](https://www.npmjs.com/) atau [yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
+### Bagaimana Cara menjalankan fitur perintah di komputer
 
-### Cara menjalankan fitur perintah di komputer
+**1. Tekan `Clt + C` / `C` Di Keyboard**
 
-**1. Tekan Clt + C / C Di Keyboard**
-
-**2. Kalau muncul popup perintah seperti ini, Masukkan perintah yang aku letakkan di bawah dan pilih 1 saja**
+**2. Kalau muncul popup perintah seperti ini, silakan Masukkan perintah sesuai kamu mau**
 
 **3. Salin Teks ini yang ada dibawah**
 
 ```bash
 reset
 ```
-
-**4. Konfigurasi file `.env` sesuai kebutuhan**
-
-```env
-DATABASE_URL=your_database_url
-API_KEY=your_api_key
-PORT=3000
-```
-
-### Menjalankan Proyek
-
-**Mode Development**
-
 ```bash
-npm run dev
+custom
 ```
-
-**Mode Production**
-
 ```bash
-npm run build
-npm start
+gallery
 ```
-
-### Contoh Penggunaan
-
-```javascript
-import { NamaProyek } from 'nama-proyek';
-
-const app = new NamaProyek({
-  apiKey: 'your-api-key',
-  mode: 'production',
-});
-
-// Contoh penggunaan dasar
-const hasil = await app.jalankan({
-  input: 'data kamu di sini',
-});
-
-console.log(hasil);
-```
-
-### Menjalankan Pengujian
-
 ```bash
-npm test
+dark
 ```
+```bash
+light
+```
+```bash
+qruare
+```
+```bash
+rounded
+```
+```bash
+circle
+```
+```bash
+click
+```
+**4. Tekan tombol `Enter` atau klik `ok` Di keyboard**
+
 
 ---
 
@@ -94,25 +69,8 @@ npm test
 
 | Versi  | Tanggal Rilis | Perubahan                                      |
 |--------|---------------|------------------------------------------------|
-| 1.0.0  | 2025-01-01    | 🎉 Rilis pertama                               |
-| 0.9.0  | 2024-12-01    | ⚙️ Beta — penambahan fitur autentikasi         |
-| 0.8.0  | 2024-11-01    | 🐛 Perbaikan bug pada modul koneksi database   |
-| 0.7.0  | 2024-10-01    | ✨ Penambahan dukungan multi-bahasa            |
-
-Lihat [CHANGELOG.md](./CHANGELOG.md) untuk riwayat lengkap perubahan.
+| 1.1.0  |   Fix Bug                              |
 
 ---
 
-## 🤝 Kontribusi
-
-Kontribusi sangat disambut! Silakan buka [issue](https://github.com/username/nama-proyek/issues) atau ajukan [pull request](https://github.com/username/nama-proyek/pulls).
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](./LICENSE).
-
----
-
-<p align="center">Dibuat dengan ❤️ oleh <a href="https://github.com/username">Username</a></p>
+<p align="center">©2026 Ozan <a href="https://github.com/username">OzanFz</a></p>

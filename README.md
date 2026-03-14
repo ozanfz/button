@@ -60,6 +60,10 @@ circle
 ```bash
 click
 ```
+```bash
+about
+```
+
 **4. Tekan tombol `Enter` atau klik `ok` Di keyboard**
 
 
@@ -69,8 +73,8 @@ click
 
 | Versi  | Tanggal Rilis | Perubahan                                      |
 |--------|---------------|------------------------------------------------|
-| 1.1.0  |   Fix Bug                              |
+| 1.1.0  |                            |
 
 ---
 
-<p align="center">©2026 Ozan <a href="https://github.com/username">OzanFz</a></p>
+<p align="center">©2026 Ozan <a href="https://github.com/ozanfz">OzanFz</a></p>
